@@ -235,12 +235,13 @@ body {
     }
 }
 
-/* media query for larger phones */ 
+/* media query for mobile phones */ 
 @media (max-width: 600px) {
     .container {
-        width: 90%;
+        width: 95%;
         flex-direction: column;
-        height: auto;
+        height: 600px;
+        gap: 2rem;
     }
 
     .profile-content {
@@ -271,5 +272,25 @@ body {
         justify-content: center;
         gap: 2.5rem;
         margin-bottom: 20px;
+    }
+
+    .profile-dashboard {
+        width: 100%;
+        height: auto;
+    }
+
+    .dashboard-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hours {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .hours p {
+        font-size: 1rem;
     }
 }
