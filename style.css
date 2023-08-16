@@ -227,3 +227,49 @@ body {
         gap: 1rem;
     }
 }
+
+/* media query for small tablets */
+@media (max-width: 830px) {
+    .container {
+        width: 750px;
+    }
+}
+
+/* media query for larger phones */ 
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .profile-content {
+        width: 100%;
+    }
+
+    .profile-items {
+        display: flex;
+        align-items: center;
+        height: auto;
+        gap: 1.2rem;
+        padding-bottom: 0;
+        width: 100%;
+        height: auto;
+    }
+
+    .profile-details {
+        margin-top: -25px;
+    }
+
+    .profile-details h1 {
+        font-size: 1.3rem;
+    }
+
+    .profile-itinerary {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 2.5rem;
+        margin-bottom: 20px;
+    }
+}
