@@ -125,4 +125,43 @@ body {
 .box {
     background-color: var(--Dark-blue);
     height: 240px;
+    border-radius: .6rem;
+}
+
+.box-img {
+    height: 40px;
+    background-repeat: no-repeat;
+    background-position: 135px;
+    background-size: 50px;
+    border-radius: .6rem .6rem 0rem 0rem;
+}
+
+.work {
+    background-color: var(--Light-red-work);
+    background-image: url(images/icon-work.svg);
+}
+
+.play {
+    background-color: var(--Soft-blue-play);
+    background-image: url(images/icon-play.svg);
+}
+
+.study {
+    background-color: var(--Light-red-study);
+    background-image: url(images/icon-study.svg);
+}
+
+.exercise {
+    background-color: var(--Lime-green-exercise);
+    background-image: url(images/icon-exercise.svg);
+}
+
+.social {
+    background-color: var(--Violet-social);
+    background-image: url(images/icon-social.svg);
+}
+
+.self-care {
+    background-color: var(--Soft-orange-self-care);
+    background-image: url(images/icon-self-care.svg);
 }
