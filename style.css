@@ -112,5 +112,17 @@ body {
 
 .profile-dashboard {
     width: 630px;
-    background-color: red;
+    background-color: transparent;
+}
+
+.dashboard-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 1rem;
+    margin-bottom: 20px;
+}
+
+.box {
+    background-color: var(--Dark-blue);
+    height: 240px;
 }
