@@ -202,3 +202,28 @@ body {
     text-transform: capitalize;
     word-spacing: .1rem;
 }
+
+/* media query larger tablet */
+@media (max-width: 998px) {
+    .container {
+        width: 800px;
+        gap: 1rem;
+    }
+
+    .profile-content {
+        width: 200px;
+    }
+
+    .profile-details h1 {
+        font-size: 1.8rem;
+    }
+
+    .profile-dashboard {
+        width: 600px;
+    }
+
+    .dashboard-content {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        gap: 1rem;
+    }
+}
