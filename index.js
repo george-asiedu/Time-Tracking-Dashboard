@@ -23,7 +23,25 @@ const activeButton = active => {
     active.classList.add('active')
 }
 
+const dashboardContent = async (activeButtonOption) => {
 
+    const workingHours = time => {
+        if(time === 'daily') {
+            return 'Yesterday'
+        } else if(time === 'weekly') {
+            return 'Last week'
+        } else if (time === 'monthly') {
+            return 'Last month'
+        }
+    }
+
+    jsonData.forEach(activity => {
+        const name = activity.title
+        const currentTime = activity.timeframes[activeButtonOption]
+        const previousTime = workingHours(activeButtonOption)
+        
+    })
+}
 
 clickButtons(buttons)
 receiveData()
