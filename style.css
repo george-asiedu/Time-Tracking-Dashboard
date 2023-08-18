@@ -106,7 +106,7 @@ body {
     cursor: pointer;
 }
 
-.profile-itinerary .btn:hover {
+.profile-itinerary .btn:is(:hover, .active) {
     color: #fff;
 }
 
